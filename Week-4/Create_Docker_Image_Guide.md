@@ -1,10 +1,10 @@
-# Docker Image Creation Guide
+# Docker Image Creation 
 
-This guide explains how to create Docker images using two different methods: via a Dockerfile and from running containers.
+This explains how to create Docker images using two different methods: via a Dockerfile and from running containers.
 
 ---
 
-## 📦 Method 1: Create Docker Image Using Dockerfile
+##  Method 1: Create Docker Image Using Dockerfile
 
 ### 1. Prerequisites
 - Docker installed on your machine.
@@ -62,7 +62,7 @@ docker run -p 5000:5000 my-python-app
 
 ---
 
-## 🛠️ Method 2: Create Docker Image from Running Container
+##  Method 2: Create Docker Image from Running Container
 
 ### 1. Run a Container Interactively
 
@@ -87,7 +87,7 @@ docker run -it my-custom-image
 
 ---
 
-## 🧼 Clean Up
+##  Clean Up
 
 ### Stop and Remove Containers
 
@@ -104,7 +104,7 @@ docker rmi my-python-app my-custom-image
 
 ---
 
-## ☁️ Optional: Push to Docker Hub
+##  Optional: Push to Docker Hub
 
 ### 1. Tag the Image
 
@@ -121,7 +121,7 @@ docker push yourdockerhubusername/my-python-app
 
 ---
 
-## ✅ Summary
+## Summary
 
 | Task | Command |
 |------|---------|
@@ -131,5 +131,3 @@ docker push yourdockerhubusername/my-python-app
 | Push to Docker Hub | `docker push <username>/<image-name>` |
 
 ---
-
-Happy Dockering! 🐳

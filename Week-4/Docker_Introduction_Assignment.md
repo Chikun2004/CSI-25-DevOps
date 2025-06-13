@@ -60,4 +60,4 @@ Visit `http://localhost:8080` in your browser — you should see the Nginx welco
 
 Docker and containerization have revolutionized how applications are developed, deployed, and managed. With a few simple commands, you can create consistent, portable, and scalable environments for any application.
 
-Happy Dockering! 🐳
+Happy Dockering! 
